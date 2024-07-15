@@ -1,0 +1,30 @@
+<!-- html codes -->
+<div class="calc">
+    <div class="screen">
+        <div class="top">
+            {{prevValue}} {{operator}}
+        </div>
+        <div class="main">
+            {{mainValue}}
+        </div>
+    </div>
+    <div class="buttons">
+        <button (click)="digit('7')">7</button>
+        <button (click)="digit('8')">8</button>
+        <button (click)="digit('9')">9</button>
+        <button (click)="operate('+')">+</button>
+        <button (click)="digit('4')">4</button>
+        <button (click)="digit('5')">5</button>
+        <button (click)="digit('6')">6</button>
+        <button (click)="operate('-')">-</button>
+        <button (click)="digit('1')">1</button>
+        <button (click)="digit('2')">2</button>
+        <button (click)="digit('3')">3</button>
+        <button (click)="operate('x')">x</button>
+        <button (click)="clear()">C</button>
+        <button (click)="digit('0')">0</button>
+        <button (click)="op()">=</button>
+        <button (click)="operate('/')">/</button>
+    </div>
+
+</div>
