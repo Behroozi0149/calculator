@@ -1,12 +1,12 @@
 /* css codes */
 .calc {
-    background-color: rgb(232, 232, 232);
-    border: 2px double rgb(241, 241, 241);
+    background-color: gray;
+    border: 2px double rgb(98, 98, 98);
     border-radius: 10px;
     padding: 10px;
     width: 200px;
-    height: 150px;
-    box-shadow: 1px 6px 40px rgb(168, 167, 167);
+    height: 200px;
+    box-shadow: 2px 10px 50px rgb(98, 98, 98);
     margin-left: auto;
     margin-right: auto;
     margin-top: 30vh;
@@ -21,4 +21,48 @@
     width: 25%;
     margin-top: 5px;
     box-shadow: 0.5px 1px 3.5px;
+    color: black;
+    transition: 0.3s;
+}
+
+.c {
+    background-color: rgb(198, 102, 102);
+}
+
+.num {
+    background-color: rgb(125, 181, 163);
+}
+
+.operate {
+    background-color: rgb(123, 123, 196);
+}
+
+.jam {
+    background-color: rgb(134, 174, 134);
+}
+
+
+
+
+
+.c:hover {
+    background-color: rgb(222, 65, 65);
+}
+
+.num:hover {
+    background-color: rgb(177, 255, 229);
+}
+
+.operate:hover {
+    background-color: rgb(116, 116, 255);
+}
+
+.jam:hover {
+    background-color: rgb(65, 140, 65);
+}
+
+.ans {
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }

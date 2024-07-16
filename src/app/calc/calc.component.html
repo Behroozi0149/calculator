@@ -5,26 +5,26 @@
             {{prevValue}} {{operator}}
         </div>
         <div class="main">
-            {{mainValue}}
+            <p class="ans">________answer________</p> {{mainValue}}
         </div>
     </div>
     <div class="buttons">
-        <button (click)="digit('7')">7</button>
-        <button (click)="digit('8')">8</button>
-        <button (click)="digit('9')">9</button>
-        <button (click)="operate('+')">+</button>
-        <button (click)="digit('4')">4</button>
-        <button (click)="digit('5')">5</button>
-        <button (click)="digit('6')">6</button>
-        <button (click)="operate('-')">-</button>
-        <button (click)="digit('1')">1</button>
-        <button (click)="digit('2')">2</button>
-        <button (click)="digit('3')">3</button>
-        <button (click)="operate('x')">x</button>
-        <button (click)="clear()">C</button>
-        <button (click)="digit('0')">0</button>
-        <button (click)="op()">=</button>
-        <button (click)="operate('/')">/</button>
+        <button class="num" (click)="digit('7')">7</button>
+        <button class="num" (click)="digit('8')">8</button>
+        <button class="num" (click)="digit('9')">9</button>
+        <button class="operate" (click)="operate('+')">+</button>
+        <button class="num" (click)="digit('4')">4</button>
+        <button class="num" (click)="digit('5')">5</button>
+        <button class="num" (click)="digit('6')">6</button>
+        <button class="operate" (click)="operate('-')">-</button>
+        <button class="num" (click)="digit('1')">1</button>
+        <button class="num" (click)="digit('2')">2</button>
+        <button class="num" (click)="digit('3')">3</button>
+        <button class="operate" (click)="operate('x')">x</button>
+        <button class="c" (click)="clear()">C</button>
+        <button class="num" (click)="digit('0')">0</button>
+        <button class="jam" (click)="op()">=</button>
+        <button class="operate" (click)="operate('/')">/</button>
     </div>
 
 </div>
