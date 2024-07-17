@@ -1,7 +1,4 @@
-هر چیزی که در این برنامه استفاده کردم از داخل فیلم بوده 
-
-
-
-
-
+(❁´◡`❁)
 قبل از ران کردن npm install را بزنید 
+my github:https://github.com/Behroozi0149?tab=repositories
+(❁´◡`❁)
