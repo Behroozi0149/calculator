@@ -4,26 +4,26 @@
     border: 2px double rgb(98, 98, 98);
     border-radius: 15px;
     padding: 10px;
-    width: 200px;
-    height: 200px;
-    box-shadow: 10px 10px 50px rgb(150, 150, 150);
+    width: 240px;
+    height: 240px;
+    box-shadow: 15px 15px 40px rgb(150, 150, 150);
     margin-left: auto;
     margin-right: auto;
     margin-top: 30vh;
-    transition: 0.7s;
+    transition: 1s;
 }
 
 .calc:hover {
     background-color: rgb(130, 130, 130);
-    box-shadow: 15px 20px 45px rgb(130, 130, 130);
-    width: 215px;
-    height: 215px;
+    box-shadow: 20px 20px 30px rgb(130, 130, 130);
+    width: 265px;
+    height: 265px;
 }
 
 .buttons {
     display: flex;
     flex-wrap: wrap;
-    transition: 0.7s;
+    transition: 1s;
 }
 
 .buttons:hover {
@@ -59,10 +59,6 @@
     background-color: rgb(134, 174, 134);
     transition: 0.5s;
 }
-
-
-
-
 
 .c:hover {
     background-color: rgb(222, 65, 65);
