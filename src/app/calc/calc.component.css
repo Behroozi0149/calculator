@@ -1,44 +1,63 @@
 /* css codes */
 .calc {
-    background-color: gray;
+    background-color: rgb(150, 150, 150);
     border: 2px double rgb(98, 98, 98);
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
     width: 200px;
     height: 200px;
-    box-shadow: 2px 10px 50px rgb(98, 98, 98);
+    box-shadow: 10px 10px 50px rgb(150, 150, 150);
     margin-left: auto;
     margin-right: auto;
     margin-top: 30vh;
+    transition: 0.7s;
+}
+
+.calc:hover {
+    background-color: rgb(130, 130, 130);
+    box-shadow: 15px 20px 45px rgb(130, 130, 130);
+    width: 215px;
+    height: 215px;
 }
 
 .buttons {
     display: flex;
     flex-wrap: wrap;
+    transition: 0.7s;
+}
+
+.buttons:hover {
+    margin-top: 25px;
 }
 
 .calc .buttons button {
     width: 25%;
     margin-top: 5px;
-    box-shadow: 0.5px 1px 3.5px;
+    box-shadow: 1px 1px 5px;
     color: black;
     transition: 0.3s;
+    border: 1px double;
+    border-radius: 5px;
 }
 
 .c {
     background-color: rgb(198, 102, 102);
+    transition: 0.5s;
 }
 
 .num {
     background-color: rgb(125, 181, 163);
+    transition: 0.5s;
 }
 
 .operate {
     background-color: rgb(123, 123, 196);
+    transition: 0.5s;
 }
 
 .jam {
     background-color: rgb(134, 174, 134);
+    transition: 0.5s;
 }
 
 
