@@ -13,7 +13,7 @@ my github:https://github.com/Behroozi0149?tab=repositories
 
 
 
-calc component file
+calculator component file
 
 html file: src > app > calc > calc.component.html
 

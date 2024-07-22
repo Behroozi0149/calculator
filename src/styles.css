@@ -1,5 +1,6 @@
 body {
     background-color: rgb(208, 210, 198);
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
 }

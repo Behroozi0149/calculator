@@ -4,8 +4,8 @@
     border: 2px double rgb(98, 98, 98);
     border-radius: 15px;
     padding: 10px;
-    width: 240px;
-    height: 240px;
+    width: 255px;
+    height: 295px;
     box-shadow: 15px 15px 40px rgb(150, 150, 150);
     margin-left: auto;
     margin-right: auto;
@@ -16,18 +16,19 @@
 .calc:hover {
     background-color: rgb(130, 130, 130);
     box-shadow: 20px 20px 30px rgb(130, 130, 130);
-    width: 265px;
-    height: 265px;
+    width: 280px;
+    height: 320px;
 }
 
 .buttons {
     display: flex;
     flex-wrap: wrap;
     transition: 1s;
+    margin-top: 10px
 }
 
 .buttons:hover {
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 .calc .buttons button {
