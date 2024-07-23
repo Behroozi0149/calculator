@@ -43,3 +43,4 @@ export class CalcComponent {
   operator: string = '';
 
 }
+
